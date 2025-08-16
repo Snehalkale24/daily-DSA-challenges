@@ -1,4 +1,4 @@
-public class Firstday {
+public class Problem1{
     public static void sortColors(int[] arr) {
         int low = 0, mid = 0, high = arr.length - 1;
 
@@ -19,13 +19,9 @@ public class Firstday {
             }
         }
     }
-
     public static void main(String[] args) {
         int[] arr = {0, 1, 2, 1, 0, 2, 1, 0};
-
         sortColors(arr);
-
-        
         for (int num : arr) {
             System.out.print(num + " ");
         }
